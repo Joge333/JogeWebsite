@@ -8,10 +8,16 @@ nav {
 	position: absolute;
 	color: red;
 }
+body {
+	background-color: #000000;
+	color: red;
+	text-align: center;
+}
 
 section.main {
 	width: 100%vw;
 	height: 100%vh;
+	background: url("../images/lights.png");
 	background:  #000000;
 	background-size: cover;
 	text-align: center;
@@ -23,7 +29,22 @@ section.main {
 
 section.main h1 {
 	font-family: 'Blaka', cursive;
-	font-size: 9rem;
+	font-size: 15rem;
+}
+
+section h2{
+width: 100%vw;
+height: 100%vw;
+background: #000000;
+
+}
+
+footer {
+	display: ;
+	font-weight: bold;
+	padding: 1.5rem 3rem;
+	background: green;
+	color: black;
 }
 
 ul {
@@ -48,4 +69,9 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+body{
+     background-image: url("../images/joge.png");
+     background-repeat: repeat;
 }
