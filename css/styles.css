@@ -8,6 +8,7 @@ nav {
 	position: absolute;
 	color: red;
 }
+
 body {
 	background-color: #000000;
 	color: red;
@@ -17,7 +18,6 @@ body {
 section.main {
 	width: 100%vw;
 	height: 100%vh;
-	background: url("../images/lights.png");
 	background:  #000000;
 	background-size: cover;
 	text-align: center;
@@ -32,11 +32,11 @@ section.main h1 {
 	font-size: 15rem;
 }
 
+@media screen and (max-width: 900px) {
 section h2{
 width: 100%vw;
 height: 100%vw;
-background: #000000;
-
+		}
 }
 
 footer {
